@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Sunflower:wght@500;700&display=swap');
+
+
+
+
+/* 네비게이션 영역 */
+.nav-link.active,
+.nav-link:hover {
+    color: darkblue !important;
+    font-weight: bold;
+}
+
+/*헤더영역*/
+#heaerCarousel img{
+    filter: grayscale(100%);
+}
+
+#heaerCarousel:hover img {
+    filter: grayscale(0%);
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1, h2, h3, h4,h5 .logo-font {
+    font-family: 'Sunflower', sans-serif;
+}
+
+/* 포트폴리오섹션 */
+.card-img-top {
+    transition: transform .7s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.banner {
+    background-image: url(../images/card-banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Contact섹션 */
+.contact-bg {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,2)), url(../images/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
